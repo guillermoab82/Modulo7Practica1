@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF2723931DA479E700459EA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2723921DA479E700459EA0 /* AppDelegate.swift */; };
+		EF2723951DA479E700459EA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2723941DA479E700459EA0 /* ViewController.swift */; };
+		EF2723981DA479E700459EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2723961DA479E700459EA0 /* Main.storyboard */; };
+		EF27239B1DA479E700459EA0 /* Bartender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF2723991DA479E700459EA0 /* Bartender.xcdatamodeld */; };
+		EF27239D1DA479E700459EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF27239C1DA479E700459EA0 /* Assets.xcassets */; };
+		EF2723A01DA479E700459EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF27239E1DA479E700459EA0 /* LaunchScreen.storyboard */; };
+		EF2723A81DA47A5200459EA0 /* Drinks.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF2723A71DA47A5200459EA0 /* Drinks.plist */; };
+		EF2723B91DA47A7A00459EA0 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723AA1DA47A7A00459EA0 /* 1.jpg */; };
+		EF2723BA1DA47A7A00459EA0 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723AB1DA47A7A00459EA0 /* 10.jpg */; };
+		EF2723BB1DA47A7A00459EA0 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723AC1DA47A7A00459EA0 /* 11.jpg */; };
+		EF2723BC1DA47A7A00459EA0 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723AD1DA47A7A00459EA0 /* 12.jpg */; };
+		EF2723BD1DA47A7A00459EA0 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723AE1DA47A7A00459EA0 /* 13.jpg */; };
+		EF2723BE1DA47A7A00459EA0 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723AF1DA47A7A00459EA0 /* 14.jpg */; };
+		EF2723BF1DA47A7A00459EA0 /* 15.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723B01DA47A7A00459EA0 /* 15.jpeg */; };
+		EF2723C01DA47A7A00459EA0 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723B11DA47A7A00459EA0 /* 2.jpg */; };
+		EF2723C11DA47A7A00459EA0 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723B21DA47A7A00459EA0 /* 3.jpg */; };
+		EF2723C21DA47A7A00459EA0 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723B31DA47A7A00459EA0 /* 4.jpg */; };
+		EF2723C31DA47A7A00459EA0 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723B41DA47A7A00459EA0 /* 5.jpg */; };
+		EF2723C41DA47A7A00459EA0 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723B51DA47A7A00459EA0 /* 6.jpg */; };
+		EF2723C51DA47A7A00459EA0 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723B61DA47A7A00459EA0 /* 7.jpg */; };
+		EF2723C61DA47A7A00459EA0 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723B71DA47A7A00459EA0 /* 8.jpg */; };
+		EF2723C71DA47A7A00459EA0 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723B81DA47A7A00459EA0 /* 9.jpg */; };
+		EF2723CB1DA5D91800459EA0 /* Bebidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2723CA1DA5D91800459EA0 /* Bebidas.swift */; };
+		EF2723CF1DA6D96800459EA0 /* DetalleBebida.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2723CE1DA6D96800459EA0 /* DetalleBebida.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF27238F1DA479E700459EA0 /* Bartender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bartender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2723921DA479E700459EA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF2723941DA479E700459EA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF2723971DA479E700459EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF27239A1DA479E700459EA0 /* Bartender.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bartender.xcdatamodel; sourceTree = "<group>"; };
+		EF27239C1DA479E700459EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF27239F1DA479E700459EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF2723A11DA479E800459EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2723A71DA47A5200459EA0 /* Drinks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Drinks.plist; sourceTree = "<group>"; };
+		EF2723AA1DA47A7A00459EA0 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		EF2723AB1DA47A7A00459EA0 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		EF2723AC1DA47A7A00459EA0 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		EF2723AD1DA47A7A00459EA0 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		EF2723AE1DA47A7A00459EA0 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		EF2723AF1DA47A7A00459EA0 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		EF2723B01DA47A7A00459EA0 /* 15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpeg; sourceTree = "<group>"; };
+		EF2723B11DA47A7A00459EA0 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		EF2723B21DA47A7A00459EA0 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		EF2723B31DA47A7A00459EA0 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		EF2723B41DA47A7A00459EA0 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		EF2723B51DA47A7A00459EA0 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		EF2723B61DA47A7A00459EA0 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		EF2723B71DA47A7A00459EA0 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		EF2723B81DA47A7A00459EA0 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		EF2723CA1DA5D91800459EA0 /* Bebidas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bebidas.swift; sourceTree = "<group>"; };
+		EF2723CE1DA6D96800459EA0 /* DetalleBebida.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetalleBebida.swift; path = ../DetalleBebida.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF27238C1DA479E700459EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2723861DA479E700459EA0 = {
+			isa = PBXGroup;
+			children = (
+				EF2723911DA479E700459EA0 /* Bartender */,
+				EF2723901DA479E700459EA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF2723901DA479E700459EA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF27238F1DA479E700459EA0 /* Bartender.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2723911DA479E700459EA0 /* Bartender */ = {
+			isa = PBXGroup;
+			children = (
+				EF2723A91DA47A7A00459EA0 /* drinksImages */,
+				EF2723A71DA47A5200459EA0 /* Drinks.plist */,
+				EF2723921DA479E700459EA0 /* AppDelegate.swift */,
+				EF2723CA1DA5D91800459EA0 /* Bebidas.swift */,
+				EF2723CE1DA6D96800459EA0 /* DetalleBebida.swift */,
+				EF2723941DA479E700459EA0 /* ViewController.swift */,
+				EF2723961DA479E700459EA0 /* Main.storyboard */,
+				EF27239C1DA479E700459EA0 /* Assets.xcassets */,
+				EF27239E1DA479E700459EA0 /* LaunchScreen.storyboard */,
+				EF2723A11DA479E800459EA0 /* Info.plist */,
+				EF2723991DA479E700459EA0 /* Bartender.xcdatamodeld */,
+			);
+			path = Bartender;
+			sourceTree = "<group>";
+		};
+		EF2723A91DA47A7A00459EA0 /* drinksImages */ = {
+			isa = PBXGroup;
+			children = (
+				EF2723AA1DA47A7A00459EA0 /* 1.jpg */,
+				EF2723AB1DA47A7A00459EA0 /* 10.jpg */,
+				EF2723AC1DA47A7A00459EA0 /* 11.jpg */,
+				EF2723AD1DA47A7A00459EA0 /* 12.jpg */,
+				EF2723AE1DA47A7A00459EA0 /* 13.jpg */,
+				EF2723AF1DA47A7A00459EA0 /* 14.jpg */,
+				EF2723B01DA47A7A00459EA0 /* 15.jpeg */,
+				EF2723B11DA47A7A00459EA0 /* 2.jpg */,
+				EF2723B21DA47A7A00459EA0 /* 3.jpg */,
+				EF2723B31DA47A7A00459EA0 /* 4.jpg */,
+				EF2723B41DA47A7A00459EA0 /* 5.jpg */,
+				EF2723B51DA47A7A00459EA0 /* 6.jpg */,
+				EF2723B61DA47A7A00459EA0 /* 7.jpg */,
+				EF2723B71DA47A7A00459EA0 /* 8.jpg */,
+				EF2723B81DA47A7A00459EA0 /* 9.jpg */,
+			);
+			path = drinksImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF27238E1DA479E700459EA0 /* Bartender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2723A41DA479E800459EA0 /* Build configuration list for PBXNativeTarget "Bartender" */;
+			buildPhases = (
+				EF27238B1DA479E700459EA0 /* Sources */,
+				EF27238C1DA479E700459EA0 /* Frameworks */,
+				EF27238D1DA479E700459EA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bartender;
+			productName = Bartender;
+			productReference = EF27238F1DA479E700459EA0 /* Bartender.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF2723871DA479E700459EA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cep.UNAMMemosCorp;
+				TargetAttributes = {
+					EF27238E1DA479E700459EA0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EF27238A1DA479E700459EA0 /* Build configuration list for PBXProject "Bartender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF2723861DA479E700459EA0;
+			productRefGroup = EF2723901DA479E700459EA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF27238E1DA479E700459EA0 /* Bartender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF27238D1DA479E700459EA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2723BE1DA47A7A00459EA0 /* 14.jpg in Resources */,
+				EF2723BC1DA47A7A00459EA0 /* 12.jpg in Resources */,
+				EF2723BD1DA47A7A00459EA0 /* 13.jpg in Resources */,
+				EF2723A01DA479E700459EA0 /* LaunchScreen.storyboard in Resources */,
+				EF2723C11DA47A7A00459EA0 /* 3.jpg in Resources */,
+				EF2723A81DA47A5200459EA0 /* Drinks.plist in Resources */,
+				EF2723C31DA47A7A00459EA0 /* 5.jpg in Resources */,
+				EF2723BF1DA47A7A00459EA0 /* 15.jpeg in Resources */,
+				EF2723C71DA47A7A00459EA0 /* 9.jpg in Resources */,
+				EF2723C01DA47A7A00459EA0 /* 2.jpg in Resources */,
+				EF2723C21DA47A7A00459EA0 /* 4.jpg in Resources */,
+				EF2723C51DA47A7A00459EA0 /* 7.jpg in Resources */,
+				EF2723C41DA47A7A00459EA0 /* 6.jpg in Resources */,
+				EF2723C61DA47A7A00459EA0 /* 8.jpg in Resources */,
+				EF27239D1DA479E700459EA0 /* Assets.xcassets in Resources */,
+				EF2723981DA479E700459EA0 /* Main.storyboard in Resources */,
+				EF2723BA1DA47A7A00459EA0 /* 10.jpg in Resources */,
+				EF2723BB1DA47A7A00459EA0 /* 11.jpg in Resources */,
+				EF2723B91DA47A7A00459EA0 /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF27238B1DA479E700459EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2723951DA479E700459EA0 /* ViewController.swift in Sources */,
+				EF2723931DA479E700459EA0 /* AppDelegate.swift in Sources */,
+				EF2723CB1DA5D91800459EA0 /* Bebidas.swift in Sources */,
+				EF2723CF1DA6D96800459EA0 /* DetalleBebida.swift in Sources */,
+				EF27239B1DA479E700459EA0 /* Bartender.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF2723961DA479E700459EA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2723971DA479E700459EA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF27239E1DA479E700459EA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF27239F1DA479E700459EA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF2723A21DA479E800459EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF2723A31DA479E800459EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF2723A51DA479E800459EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bartender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.AlonsoGuillermo.Bartender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF2723A61DA479E800459EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bartender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.AlonsoGuillermo.Bartender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF27238A1DA479E700459EA0 /* Build configuration list for PBXProject "Bartender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2723A21DA479E800459EA0 /* Debug */,
+				EF2723A31DA479E800459EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2723A41DA479E800459EA0 /* Build configuration list for PBXNativeTarget "Bartender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2723A51DA479E800459EA0 /* Debug */,
+				EF2723A61DA479E800459EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF2723991DA479E700459EA0 /* Bartender.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF27239A1DA479E700459EA0 /* Bartender.xcdatamodel */,
+			);
+			currentVersion = EF27239A1DA479E700459EA0 /* Bartender.xcdatamodel */;
+			path = Bartender.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF2723871DA479E700459EA0 /* Project object */;
+}
