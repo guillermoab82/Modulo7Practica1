@@ -31,6 +31,8 @@
 		EF2723C71DA47A7A00459EA0 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2723B81DA47A7A00459EA0 /* 9.jpg */; };
 		EF2723CB1DA5D91800459EA0 /* Bebidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2723CA1DA5D91800459EA0 /* Bebidas.swift */; };
 		EF2723CF1DA6D96800459EA0 /* DetalleBebida.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2723CE1DA6D96800459EA0 /* DetalleBebida.swift */; };
+		EF2A059A1DAC5E3400CC6C11 /* wds052801.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF2A05991DAC5E3400CC6C11 /* wds052801.ttf */; };
+		EF2A059C1DAC654000CC6C11 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A059B1DAC654000CC6C11 /* CustomLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		EF2723B81DA47A7A00459EA0 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
 		EF2723CA1DA5D91800459EA0 /* Bebidas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bebidas.swift; sourceTree = "<group>"; };
 		EF2723CE1DA6D96800459EA0 /* DetalleBebida.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetalleBebida.swift; path = ../DetalleBebida.swift; sourceTree = "<group>"; };
+		EF2A05991DAC5E3400CC6C11 /* wds052801.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = wds052801.ttf; path = drinksImages/wds052801.ttf; sourceTree = "<group>"; };
+		EF2A059B1DAC654000CC6C11 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +96,10 @@
 		EF2723911DA479E700459EA0 /* Bartender */ = {
 			isa = PBXGroup;
 			children = (
+				EF2A05991DAC5E3400CC6C11 /* wds052801.ttf */,
 				EF2723A91DA47A7A00459EA0 /* drinksImages */,
 				EF2723A71DA47A5200459EA0 /* Drinks.plist */,
+				EF2A059B1DAC654000CC6C11 /* CustomLabel.swift */,
 				EF2723921DA479E700459EA0 /* AppDelegate.swift */,
 				EF2723CA1DA5D91800459EA0 /* Bebidas.swift */,
 				EF2723CE1DA6D96800459EA0 /* DetalleBebida.swift */,
@@ -161,6 +167,7 @@
 				TargetAttributes = {
 					EF27238E1DA479E700459EA0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 44398K9829;
 					};
 				};
 			};
@@ -194,6 +201,7 @@
 				EF2723C11DA47A7A00459EA0 /* 3.jpg in Resources */,
 				EF2723A81DA47A5200459EA0 /* Drinks.plist in Resources */,
 				EF2723C31DA47A7A00459EA0 /* 5.jpg in Resources */,
+				EF2A059A1DAC5E3400CC6C11 /* wds052801.ttf in Resources */,
 				EF2723BF1DA47A7A00459EA0 /* 15.jpeg in Resources */,
 				EF2723C71DA47A7A00459EA0 /* 9.jpg in Resources */,
 				EF2723C01DA47A7A00459EA0 /* 2.jpg in Resources */,
@@ -217,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF2723951DA479E700459EA0 /* ViewController.swift in Sources */,
+				EF2A059C1DAC654000CC6C11 /* CustomLabel.swift in Sources */,
 				EF2723931DA479E700459EA0 /* AppDelegate.swift in Sources */,
 				EF2723CB1DA5D91800459EA0 /* Bebidas.swift in Sources */,
 				EF2723CF1DA6D96800459EA0 /* DetalleBebida.swift in Sources */,
@@ -333,10 +342,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Bartender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.AlonsoGuillermo.Bartender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -344,10 +356,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Bartender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.AlonsoGuillermo.Bartender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -370,6 +385,7 @@
 				EF2723A61DA479E800459EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

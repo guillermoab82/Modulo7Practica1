@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var lblInicio: UILabel!
+    @IBOutlet weak var lblBienvenidos: UILabel!
     @IBOutlet weak var txtUsuario: UITextField!
     @IBOutlet weak var txtPwd: UITextField!
     @IBOutlet weak var scrollview: UIScrollView!
@@ -71,8 +73,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let maxY:CGFloat = CGRectGetMaxY(self.txtPwd.frame)
         let ancho:CGFloat = CGRectGetWidth(UIScreen.mainScreen().bounds)
-        let nvoSize:CGSize = CGSizeMake(ancho, maxY+20.0)
+        let nvoSize:CGSize = CGSizeMake(ancho, maxY+30.0)
         self.scrollview.contentSize = nvoSize
+        self.lblBienvenidos.font = UIFont(name: "WaltDisneyScript", size: 35.0)
+        self.lblInicio.font = UIFont(name: "WaltDisneyScript", size: 25.0)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

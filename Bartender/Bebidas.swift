@@ -51,6 +51,7 @@ class Bebidas: UITableViewController {
         // Configure the cell...
         let dictInfo = self.lasBebidas![indexPath.row] as! NSDictionary
         cell.textLabel?.text = (dictInfo["name"] as! String).lowercaseString
+        cell.textLabel?.textColor = UIColor.whiteColor()
         let laImg = (dictInfo["image"] as! String).lowercaseString
         cell.imageView?.image = UIImage(named: laImg)
         return cell

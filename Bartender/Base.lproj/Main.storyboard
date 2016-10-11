@@ -23,7 +23,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Incio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M1U-TG-sIM">
                                         <rect key="frame" x="252" y="104" width="57" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingrese Usuario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h1s-nX-hN5">
@@ -36,16 +36,16 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingrese password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VvG-C4-Mj3">
-                                        <rect key="frame" x="216" y="199" width="129" height="30"/>
+                                        <rect key="frame" x="216" y="194" width="129" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="Pw4-oc-fIk"/>
                                             <constraint firstAttribute="width" constant="129" id="XGN-tb-INw"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXa-eu-fj1">
-                                        <rect key="frame" x="252" y="247" width="57" height="30"/>
+                                        <rect key="frame" x="252" y="242" width="57" height="30"/>
                                         <state key="normal" title="Ingresar"/>
                                         <connections>
                                             <action selector="btnIngresar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3wP-KK-Irg"/>
@@ -54,7 +54,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="¡¡Bienvenidos a Bartender!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zh-iG-qB7">
                                         <rect key="frame" x="136" y="17" width="290" height="21"/>
                                         <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="22"/>
-                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -68,7 +68,8 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="DFh-iL-mWK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="dqT-Tt-7DH"/>
@@ -79,6 +80,8 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="lblBienvenidos" destination="3zh-iG-qB7" id="1KP-Xw-Qr4"/>
+                        <outlet property="lblInicio" destination="M1U-TG-sIM" id="bah-FK-OkD"/>
                         <outlet property="scrollview" destination="DFh-iL-mWK" id="5J0-Wh-ol9"/>
                         <outlet property="txtPwd" destination="VvG-C4-Mj3" id="O4c-oZ-ESS"/>
                         <outlet property="txtUsuario" destination="h1s-nX-hN5" id="aKC-gA-0hV"/>
@@ -110,6 +113,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="kts-Rg-MWI" kind="show" id="bs1-mp-QmF"/>
                                 </connections>
@@ -141,35 +146,28 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gku-EJ-sgT">
                                 <rect key="frame" x="279" y="64" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4UF-wn-wA4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4UF-wn-wA4">
                                 <rect key="frame" x="180" y="93" width="240" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="5f1-qF-rja"/>
                                     <constraint firstAttribute="height" constant="140" id="9WK-MP-onP"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4tw-42-uAO">
-                                <rect key="frame" x="180" y="359" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E99-kv-IwT">
-                                <rect key="frame" x="180" y="233" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" ambiguous="YES" misplaced="YES" editable="NO" text="text" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E99-kv-IwT">
+                                <rect key="frame" x="180" y="250" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="E99-kv-IwT" firstAttribute="centerX" secondItem="2c0-Wc-zaj" secondAttribute="centerX" id="J7n-Ln-79P"/>
-                            <constraint firstItem="4tw-42-uAO" firstAttribute="centerX" secondItem="2c0-Wc-zaj" secondAttribute="centerX" id="aIl-4J-xCu"/>
                             <constraint firstItem="4UF-wn-wA4" firstAttribute="top" secondItem="gku-EJ-sgT" secondAttribute="bottom" constant="8" id="vcB-1K-DFG"/>
                             <constraint firstItem="4UF-wn-wA4" firstAttribute="centerX" secondItem="2c0-Wc-zaj" secondAttribute="centerX" id="zPl-4R-9jw"/>
                             <constraint firstItem="gku-EJ-sgT" firstAttribute="centerX" secondItem="2c0-Wc-zaj" secondAttribute="centerX" id="zU5-nj-bp6"/>
@@ -179,7 +177,6 @@
                         <outlet property="imgImagen" destination="4UF-wn-wA4" id="srg-Nt-Qre"/>
                         <outlet property="lblTitulo" destination="gku-EJ-sgT" id="gOV-44-ssg"/>
                         <outlet property="txtIngredientes" destination="E99-kv-IwT" id="K40-Ge-nU3"/>
-                        <outlet property="txtInstrucciones" destination="4tw-42-uAO" id="5N3-cI-4T0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GpM-oi-cH6" userLabel="First Responder" sceneMemberID="firstResponder"/>
